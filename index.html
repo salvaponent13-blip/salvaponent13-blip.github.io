@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salvador Barroso Montero | Apps Oficiales</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --accent: #10b981;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--primary);
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #60a5fa;
+    }
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .card a {
+      display: inline-block;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    .badge {
+      display: inline-block;
+      background: #1e3a8a;
+      color: #93c5fd;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    .links-footer {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .links-footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Salvador Barroso Montero</h1>
+      <p class="subtitle">Desarrollador Oficial de Aplicaciones Android (Google Play Developer)</p>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <div>
+          <span class="badge">Productividad</span>
+          <h2>Agenda Inteligente</h2>
+          <p>Gestión avanzada de citas, clientes y recordatorios con sincronización en tiempo real.</p>
+        </div>
+        <a href="https://docs.google.com/document/d/e/2PACX-1vQHVQXR6hIwRC_ZT9R8cWM1JC4qyd5Vp5oSQjp4rnvFOA4696zg6ZJF8IKItYm9U8r6bs-r7ok9xAnh/pub" target="_blank" rel="noopener">Política de Privacidad &rarr;</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">Guía & Eventos</span>
+          <h2>Girona Viva</h2>
+          <p>Tu guía completa de ocio, cultura, ferias y gastronomía en Girona.</p>
+        </div>
+        <a href="https://sites.google.com/view/girona-viva-privacidad" target="_blank" rel="noopener">Política de Privacidad &rarr;</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">Guía & Turismo</span>
+          <h2>Barcelona Viva</h2>
+          <p>Descubre eventos, rutas, cultura y los mejores rincones de la ciudad de Barcelona.</p>
+        </div>
+        <a href="https://sites.google.com/view/barcelona-viva-privacidad" target="_blank" rel="noopener">Política de Privacidad &rarr;</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">Juegos</span>
+          <h2>Butimania</h2>
+          <p>El juego tradicional catalán de la Butifarra con IA y multijugador.</p>
+        </div>
+        <a href="https://sites.google.com/view/butimania-privacidad" target="_blank" rel="noopener">Política de Privacidad &rarr;</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">Emergencias</span>
+          <h2>MediSOS</h2>
+          <p>Ficha médica de emergencia 100% local, código QR para sanitarios y contactos SOS.</p>
+        </div>
+        <a href="https://sites.google.com/view/medisos-privacidad" target="_blank" rel="noopener">Política de Privacidad &rarr;</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">Social BLE</span>
+          <h2>RadarLove</h2>
+          <p>Conexión de proximidad peer-to-peer en tiempo real mediante Bluetooth de baja energía.</p>
+        </div>
+        <a href="https://sites.google.com/view/radarlove-privacidad" target="_blank" rel="noopener">Política de Privacidad &rarr;</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">Arquitectura 3D</span>
+          <h2>ArquiSpace 3D</h2>
+          <p>Estudio profesional de arquitectura y diseño de interiores en 3D interactivo a escala real.</p>
+        </div>
+        <a href="https://sites.google.com/view/arquispace3d-privacidad" target="_blank" rel="noopener">Política de Privacidad &rarr;</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Salvador Barroso Montero (Horts13). Todos los derechos reservados.</p>
+      <div class="links-footer">
+        <a href="/app-ads.txt">Verificación de Publicidad (app-ads.txt)</a>
+        <a href="mailto:salvaponent13@gmail.com">Contacto Desarrollador</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
